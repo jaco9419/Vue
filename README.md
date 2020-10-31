@@ -14,14 +14,12 @@ Concepts and overall introduction to Vue JS
 </pre>
 
 ### In index.html:
-<pre>
 <code>
-<d iv id="app">
+<div id="app">
 {{ message }}
 </div>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="index.js"></script></code>
-</pre>
 
 ## 1) CDN
 For prototyping or learning purposes, you can use the latest version with:
