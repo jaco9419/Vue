@@ -16,7 +16,7 @@ Concepts and overall introduction to Vue JS
 ### In index.html:
 <pre>
 <code>
-<di'v id="app">
+<d iv id="app">
 {{ message }}
 </div>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
