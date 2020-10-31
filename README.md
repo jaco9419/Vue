@@ -15,9 +15,9 @@ Concepts and overall introduction to Vue JS
 
 ### In index.html:
 <pre>
-<code><div id="app">
+<code>&ltdiv id="app">
 {{ message }}
-</div>
+&lt/div>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="index.js"></script></code>
 </pre>
