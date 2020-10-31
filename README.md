@@ -5,24 +5,24 @@ Concepts and overall introduction to Vue JS
 
 <pre>
 <code>&ltdiv id="app-4">
-<ol>
-<li v-for="todo in todos">
-{{ todo.text }}
-</li>
-</ol>
+  &ltol>
+    &ltli v-for="todo in todos">
+      {{ todo.text }}
+    &lt/li>
+  &lt/ol>
 &lt/div></code>
 </pre>
 
 <pre>
 <code>var app4 = new Vue({
-el: '#app-4',
-data: {
-todos: [
-{ text: 'Aprender JavaScript' },
-{ text: 'Aprender Vue' },
-{ text: 'Construir algo increíble' }
-]
-}
+  el: '#app-4',
+  data: {
+    todos: [
+      { text: 'Aprender JavaScript' },
+      { text: 'Aprender Vue' },
+      { text: 'Construir algo increíble' }
+    ]
+  }
 })</code>
 </pre>
 
@@ -47,10 +47,10 @@ todos: [
 
 <pre>
 <code>&ltdiv id="app-2">
-  <span v-bind:title="message">
+  &ltspan v-bind:title="message">
     Mueva el mouse sobre mí durante unos segundos
     para ver mi título enlazado dinámicamente.
-  </span>
+  &lt/span>
 &lt/div></code>
 </pre>
 
