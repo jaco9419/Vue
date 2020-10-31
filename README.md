@@ -15,13 +15,12 @@ Concepts and overall introduction to Vue JS
 
 ### In index.html:
 <pre>
-<code><body>
+<code>
 <div id="app">
 {{ message }}
 </div>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="index.js"></script>
-</body></code>
+<script src="index.js"></script></code>
 </pre>
 
 ## 1) CDN
