@@ -1,6 +1,68 @@
 # Vue
 Concepts and overall introduction to Vue JS
 
+## 5) v-for
+
+<pre>
+<code>&ltdiv id="app-4">
+<ol>
+<li v-for="todo in todos">
+{{ todo.text }}
+</li>
+</ol>
+&lt/div></code>
+</pre>
+
+<pre>
+<code>var app4 = new Vue({
+el: '#app-4',
+data: {
+todos: [
+{ text: 'Aprender JavaScript' },
+{ text: 'Aprender Vue' },
+{ text: 'Construir algo increíble' }
+]
+}
+})</code>
+</pre>
+
+## 4) v-if
+
+<pre>
+<code>&ltdiv id="app-3">
+  <span v-if="seen">Ahora me ves</span>
+&lt/div></code>
+</pre>
+
+<pre>
+<code>var app3 = new Vue({
+  el: '#app-3',
+  data: {
+    seen: true
+  }
+})</code>
+</pre>
+
+## 3) v-bind
+
+<pre>
+<code>&ltdiv id="app-2">
+  <span v-bind:title="message">
+    Mueva el mouse sobre mí durante unos segundos
+    para ver mi título enlazado dinámicamente.
+  </span>
+&lt/div></code>
+</pre>
+
+<pre>
+<code>var app2 = new Vue({
+  el: '#app-2',
+  data: {
+  message: 'Usted cargó esta página el ' + new Date().toLocaleString()
+  }
+})</code>
+</pre>
+
 ## 2) Start
 
 ### In index.js:
