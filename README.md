@@ -4,12 +4,14 @@ Concepts and overall introduction to Vue JS
 ## 2) Start
 
 ### In index.js:
-var app = new Vue({
+<pre>
+<code>var app = new Vue({
   el: '#app',
   data: {
   message: 'Hola Vue!'
   }
-})
+})</code>
+</pre>
 
 ### In index.html:
 <pre>
@@ -19,7 +21,6 @@ var app = new Vue({
   </div>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="index.js"></script>
-
 </body></code>
 </pre>
 
